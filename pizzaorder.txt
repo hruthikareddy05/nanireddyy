@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pizza Order Form</title>
+</head>
+<body>
+  <h2>Order Your Pizza</h2>
+  <form>
+    Name:<br>
+    <input type="text" name="name" required><br><br>
+
+    Size:<br>
+    <select name="size" required>
+      <option value="">Select size</option>
+      <option>Small</option>
+      <option>Medium</option>
+      <option>Large</option>
+    </select><br><br>
+
+    Toppings:<br>
+    <input type="checkbox" name="toppings" value="Pepperoni"> Pepperoni<br>
+    <input type="checkbox" name="toppings" value="Mushrooms"> Mushrooms<br>
+    <input type="checkbox" name="toppings" value="Onions"> Onions<br><br>
+
+    Quantity:<br>
+    <input type="number" name="quantity" value="1" min="1" required><br><br>
+
+    <input type="submit" value="Order Pizza">
+  </form>
+</body>
+</html>
+
